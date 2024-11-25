@@ -1,0 +1,374 @@
+
+.navbar-nav {
+    display: flex;
+    background-image: url(dog-4.jpg);
+    width: 100%;
+}
+nav ul li .logo{
+  margin-left: 5px;
+  border-radius: 50%;
+  width: 100px;
+  margin-top: 2px;
+  box-shadow: 2px 2px 2px 2px orangered;
+}
+nav ul li .logo:hover{
+  box-shadow: 2px 2px 2px 2px rgb(42, 27, 66);
+}
+.nav-item a{
+    gap: 50px;
+   margin-left: 100px;
+    font-weight: 700;
+    font-size: 30px;
+  color: rgb(23, 240, 168);
+  background-repeat: no-repeat;
+  font-family: "Playfair Display", serif;
+
+}
+
+
+.card-img{
+    width:100%;
+    height: 600px;
+   
+}
+.card-title{
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+}
+.card-text{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+}
+#dog-card{
+    height: 420px;
+    width: 80%;
+    margin-top: 40px;
+    margin-left: 150px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+.card-body{
+    width: 100%;
+    height: 450px;
+    /* margin-top: 20px; */
+    text-align: center;
+}
+.card-body .card-text{
+    font-size: 18px;
+    
+
+}
+#img{
+    height: 290px;
+   width:350px ;
+   margin-top: 50px;
+   margin-left: 10px;
+   box-shadow: 2px 2px 2px 2px gray
+}
+#dog-card1{
+    height: 390px;
+    width: 80%;
+    margin-top: -405px;
+    margin-left: 750px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+#dog-card2{
+    height: 390px;
+    width: 80%;
+    margin-top: 40px;
+    margin-left: 150px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+#dog-card3{
+    height: 390px;
+    width: 80%;
+    margin-top: -405px;
+    margin-left: 750px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+.know{
+    text-decoration: none;
+color: red;
+
+}
+.know:hover{
+    height: 70px;
+    width: 120px;
+    background-color: rgb(101, 182, 230);
+    color: brown;
+    font-weight: bolder;
+    border-radius: 30%;
+}
+/* Footer Styling */
+footer {
+    background-color: #338d8c;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    height: 350px;
+  }
+  footer .h2{
+    margin-top: -100px;
+    /* margin-left: 200px; */
+  }
+  footer .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  
+  footer .logo h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: -850px;
+    margin-top: 50px;
+  }
+  
+  footer nav .footer-links {
+    list-style: none;
+  display: flex;
+  position: absolute;
+ top: 1870px;
+ left: 519px;
+  justify-content: center;
+    padding: 10px 0;
+  }
+  
+  footer nav .footer-links li {
+    margin: 0 15px;
+  }
+  
+  footer nav .footer-links a {
+    color: rgb(244, 243, 243);
+    text-decoration: none;
+    font-size: 1.2rem;
+   
+    
+  }
+  
+  footer nav .footer-links a:hover {
+    text-decoration: underline;
+  }
+  footer .logo{
+    margin-left: -270px;
+   border-radius: 50%;
+   width: 250px;
+   /* box-shadow: 2px 2px 2px 2px orangered; */
+  }
+ 
+  footer .h3{
+
+    margin-top: 30px;
+    margin-left: 560px;
+    font-size: 20px;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: -100px;
+    margin-left: 500px;
+  }
+  
+  .social-icons a {
+    font-size: 30px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff; /* Change the hover color to blue or any color you like */
+  }
+
+  
+@media only screen and (min-width:320px) and (max-width:486px) {
+  .navbar-nav {
+    display: flex;
+    background-image: url(dog-4.jpg);
+    width: 100%;
+}
+.nav-item a{
+    gap: 20px;
+    margin-top: -15px;
+   margin-left: 100px;
+    font-weight: 700;
+    font-size: 30px;
+  color: rgb(23, 240, 168);
+  background-repeat: no-repeat;
+  font-family: "Playfair Display", serif;
+
+}
+
+nav div ul li .logo{
+  
+  margin-left: 90px;
+  border-radius: 50%;
+  width: 100px;
+  margin-top: 2px;
+  box-shadow: 2px 2px 2px 2px orangered;
+}
+nav ul li .logo:hover{
+  box-shadow: 2px 2px 2px 2px rgb(33, 11, 54);
+}
+.card-img{
+    width:100%;
+    height: 600px;
+   
+}
+.card-title{
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+}
+.card-text{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+}
+#dog-card{
+    height: 720px;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 0px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+.card-body{
+    width: 100%;
+    height: 450px;
+    /* margin-top: 20px; */
+    text-align: center;
+}
+.card-body .card-text{
+    font-size: 18px;
+    
+
+}
+#img{
+    height: 290px;
+   width:300px ;
+   margin-top: 10px;
+   margin-left: 5px;
+   box-shadow: 2px 2px 2px 2px gray
+}
+#dog-card1{
+  height: 720px;
+  width: 100%;
+  margin-top: 40px;
+  margin-left: 0px;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+#dog-card2{
+  height: 720px;
+  width: 100%;
+  margin-top: 40px;
+  margin-left: 0px;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+#dog-card3{
+  height: 720px;
+  width: 100%;
+  margin-top: 40px;
+  margin-left: 0px;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+.know{
+    text-decoration: none;
+color: red;
+
+}
+.know:hover{
+    height: 70px;
+    width: 120px;
+    background-color: rgb(101, 182, 230);
+    color: brown;
+    font-weight: bolder;
+    border-radius: 30%;
+}
+/* Footer Styling */
+footer {
+    background-color: #338d8c;
+    color: white;
+    /* padding: 20px 0; */
+    text-align: center;
+    height: 700px;
+    width: 100%;
+  }
+  
+  footer .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  
+  footer .logo h1 {
+    font-size: 2.0rem;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 30px;
+    
+    }
+   
+  
+  footer nav .footer-links {
+    list-style: none;
+  display: flex;
+  position: absolute;
+ top: 267rem;
+ left: 140px;
+  justify-content: center;
+    padding: 10px 0;
+  }
+  
+  footer nav .footer-links li {
+    margin: 0 15px;
+  }
+  
+  footer nav .footer-links a {
+    color: rgb(244, 243, 243);
+    text-decoration: none;
+    font-size: 1.2rem;
+    
+  }
+  
+  footer nav .footer-links a:hover {
+    text-decoration: underline;
+  }
+  footer .logo{
+    margin-left: 5px;
+   border-radius: 50%;
+   width: 250px;
+   /* box-shadow: 2px 2px 2px 2px orangered; */
+  }
+  footer .h3{
+
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 290px;
+    margin-left: 10px;
+  }
+  
+  .social-icons a {
+    font-size: 30px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff; /* Change the hover color to blue or any color you like */
+  }
+
+  
+}  
+
